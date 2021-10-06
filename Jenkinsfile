@@ -1,12 +1,6 @@
 pipeline{
     agent {label 'Node1':'Node2'}
     stages{
-        stage("Git Checkout"){
-            steps{
-                 echo "git checkout"
-            }
-        }        
-        
         stage("test stage "){
             steps{
                 echo "test stage was success"
