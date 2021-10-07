@@ -1,4 +1,4 @@
-$name
+
 pipeline{
     agent {label 'Node1':'Node2'}
     stages{
