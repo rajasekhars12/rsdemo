@@ -22,17 +22,7 @@ pipeline{
                 echo "image was pushed to dockerhub successfully"
             }
         }
-        stage("Removing images"){
-            steps{
-                echo "images was removed successfully"
-            }
-        }
-        stage("ssh to node1"){
-            steps{
-                echo "successfully switched to node1"
-            }
-        }
-            
+
     }
     
 }    
